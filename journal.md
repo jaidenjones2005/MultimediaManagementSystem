@@ -34,3 +34,27 @@ prevent the program from loading the same media again.
 This phase helped me understand how lazy loading can
 improve memory efficiency in application
 
+## Phase 3: Validation & Reflection
+
+In this phase, I tested the Remote Proxy and Virtual
+Proxy to make sure they worked correctly.
+
+I tested multiple users accessing different media
+items and repeated calls to the same proxies.
+
+The Remote Proxy was designed to establish its
+connection only once, while the Virtual Proxy
+was designed to load heavy assets only once.
+
+Manual testing helped me understand how both
+proxies control access to real objects in
+different ways.
+
+I also reviewed the code to make sure the
+connection flag and lazy-loading null check
+prevented unnecessary repeated operations.
+
+Overall, this project helped me better understand
+the Proxy Pattern and how it can improve resource
+management in a streaming application.
+

@@ -18,3 +18,19 @@ I also learned how to use a boolean flag to
 prevent the remote proxy from connecting
 multiple times.
 
+## Phase 2: Virtual Proxy (Lazy Loading)
+
+In this phase, I created the VirtualMediaProxy class
+to simulate loading large media files only when needed.
+
+I learned that the Remote Proxy manages access to an
+existing object, while the Virtual Proxy delays creating
+the real object until it is first accessed.
+
+The biggest challenge was making sure the real media
+object was only created once. I used a null check to
+prevent the program from loading the same media again.
+
+This phase helped me understand how lazy loading can
+improve memory efficiency in application
+
